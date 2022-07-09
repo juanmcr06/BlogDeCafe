@@ -127,3 +127,12 @@ img {
     font-size: 1.8rem;
     color: var(--blanco);
 }
+
+
+/** Contenido Principal **/
+
+@media (min-width: 768px) {
+    .contenido-principal {
+        
+    }
+}
