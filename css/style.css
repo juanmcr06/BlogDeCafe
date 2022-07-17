@@ -203,3 +203,34 @@ img {
 .widget--curso__info {
     font-weight: 400;
 }
+
+/** Footer **/
+
+.footer {
+    background-color: var(--negro);
+    padding: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.barra-footer__enlaces {
+    display: block;
+    text-align: center;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+@media (min-width: 768px) {
+    .barra-footer {
+        display: flex;
+        gap: 2rem;
+    }
+}
