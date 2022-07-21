@@ -214,3 +214,25 @@ img {
     padding-bottom: 3rem;
     margin-top: 4rem;
 }
+
+/** Sobre Nosotros **/
+
+@media (min-width: 768px) {
+    /** Metodo con Flex Box
+    .sobre-nosotros {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sobre-nosotros__imagen,
+    .sobre-nosotros__texto {
+        flex-basis: calc(50% - 1rem);
+    }
+    **/
+
+    .sobre-nosotros {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
